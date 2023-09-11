@@ -1,6 +1,7 @@
 * { 
     /* border: solid black; */
     box-sizing: border-box;
+    font-family: Roboto;
 }
 
 body { 
@@ -13,7 +14,7 @@ body {
 .container {
     display: grid;
     grid-template-columns: 250px 1fr;
-    grid-template-rows: 200px 1fr;
+    grid-template-rows: 150px 1fr;
     background-color: #e2e9f1;
     height: 100%;
     width: 100%;
@@ -32,7 +33,6 @@ body {
     grid-area: 1/1/3/2;
     display: grid;
     grid-template-rows: 100px 300px 200px;
-    font-family: Roboto;
     font-weight: 600;
     color: white;
 }
@@ -62,5 +62,64 @@ body {
 .header {
     background-color: white;
     box-shadow: 0 0 10px rgba(119, 118, 118, 0.574);
-    clip-path: inset(0px 0px -10px 0px);  
+    clip-path: inset(0px 0px -10px 0px);
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+
+}
+
+.search-icon, .alerts {
+    height: 20px;
+    width: 20px;
+    background-color: black;
+}
+
+.user-icon-small {
+    height: 30px;
+    width: 30px;
+    background-color: black;
+}
+
+.search-bar {
+    background-color: #e2e9f1;
+    height: 25px;
+    width: 500px;
+    border: #e2e9f1;
+    border-radius: 20px;
+}
+
+.header-top {
+    display: grid;
+    grid-template-columns: 50px 1fr 50px 50px 200px;
+    align-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.user-icon-big {
+    height: 60px;
+    width: 60px;
+    background-color: black;
+}
+
+.button {
+    background-color: #1992d4;
+    border: #1992d4;
+    border-radius: 20px;
+    height: 40px;
+    width: 90px;
+    display: grid;
+    place-items: center;
+    color: white;
+    
+}
+
+.header-bottom {
+    display: grid;
+    grid-template-columns: 80px 1fr 110px 110px 110px;
+    padding-left: 20px;
+    padding-right: 90px;
+    padding-bottom: 10px;
+    align-content: center;
+    align-items: center;
 }
