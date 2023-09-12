@@ -40,13 +40,12 @@ body {
 .icon {
     height: 20px;
     width: 20px;
-    background-color: white;
 }
 
 .dash-icon {
     height: 30px;
     width: 30px;
-    background-color: white;
+
 }
 
 .middle, .bottom {
@@ -71,13 +70,13 @@ body {
 .search-icon, .alerts, .card-icon{
     height: 20px;
     width: 20px;
-    background-color: black;
+
 }
 
 .user-icon-small {
     height: 30px;
     width: 30px;
-    background-color: black;
+
 }
 
 .search-bar {
@@ -99,7 +98,7 @@ body {
 .user-icon-big {
     height: 60px;
     width: 60px;
-    background-color: black;
+
 }
 
 .button {
@@ -263,6 +262,8 @@ body {
 .trend-tag {
     color:rgba(119, 118, 118, 0.815);
 }
+
+
 
 
 
